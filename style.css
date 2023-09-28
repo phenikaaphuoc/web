@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.banner1{
+    background-color: #363636;
+    height: 42px;
+    width: 100%;
+    z-index: 999999;
+}
+
+.banner1 .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.banner1-trai{
+    height: 100%;
+    width: 500px;
+}
+.banner1-phai{
+    height: 100%;
+}
+
+
+.banner1-phai  ul li a img{
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ ul li a{
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 42px;
+    padding-right: 15px;
+    display: block;
+}
+
+ul li {
+    height: 100%;
+    position: relative;
+    
+}
+
+#menu-title:hover {
+    color: #BF460D;
+    text-decoration: none;
+
+}
+#menu-title:hover + div{
+    display: block;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+.sub-menu{
+    background-color: #F6F6F6;
+    position: absolute;
+    display: none;
+
+}
+.sub-menu:hover{
+    display: block;
+}
+.menu-khoa{
+    width: 900px;
+    height: 470px;
+}
+
+
+.menu-khoa-nho{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.menu-khoa-nho div{
+   
+    height: 100%;
+    width: 30%;
+   padding-right: 35px;
+   padding-top: 15px;
+  padding-left: 35px;
+    
+}
+.menu-khoa-nho div a{
+    color: black;
+    font-size: medium;
+    border-bottom: dashed 1px #ACACAC;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    
+}
+
+.menu-khoa-nho div a:hover{
+    color: #BF460D;
+}
+.sub-menu a:hover{
+    color: #BF460D;
+    
+}
+
+.sub-menu a{
+    color: black;
+    font-size: medium;
+    border-bottom: dashed 1px #ACACAC;
+    padding-bottom: 8px;
+
+}
+
+
+.menu-vien{
+    height: 230px;
+    width: 340px;
+    
+}
+.menu-1cot a{
+    padding-top: 20px;
+    
+}
+.menu-1cot{
+    padding: 20px 40px;
+}
+
+.menu-trung-t{
+    height: 450px;
+    width: 350px;
+}
+
+.menu-thu-vien{
+    width: 300px;
+    height: 300px;
+}
+.menu-sinh-vien{
+    width: 300px;
+    height: 150px;
+    transform: translateX(-20%);
+}
+
+.banner2{
+    width: 100%;
+    height: 92.5px;
+}
+.banner2 .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ol{
+    list-style: none;
+    display: flex;
+
+}
+
+.banner2 .container img{
+    height: 48px;
+    width: 190px;
+
+}
+.banner2 .container ol li {
+    line-height: 98px;
+}
+.banner2 .container ol li a{
+    padding : 30px 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.banner2 .container ol li:hover a{
+    border-top: 2px #E94B00 solid;
+    color: #E94B00;
+    font-weight: 600;
+   
+}
+ol{
+    height: 100%;
+}
+
+.banner3{
+    height: 396px;
+    width: 100%;
+}
+
+.banner3 img{
+    width: 100%;
+    height: 100%;
+}
+.banner4{
+    height: 44px;
+    background-color: #E6E6E6;
+}
+.banner4-nho a img{
+    width: 15px;
+    height: 15px;
+   
+}
+.banner4-nho  a{
+    line-height: 44px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #000000;
+    height: 44px;
+    font-weight: 500;
+    border-left: 1px solid #fff;
+    border-right: 1px solid#fff;
+}
+.banner4-nho  a:hover{
+    color: #BF460D;
+   
+}
+.banner4 .container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.banner4-nho{
+    width: 16.66666%;
+    border-left: 1px;
+    height: 100%;
+
+}
+.banner5{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 ;
+}
+h2{
+    font-weight: 600;
+    
+}
+.banner5 p{
+    font-size: 14px;
+    color: #838383;
+}
+.nav{
+    background-color: #223771;
+    height: 46.5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    z-index: 9999999;
+    
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav div img{
+    height: 46.5px;
+  
+}
+.nav-con{
+    line-height: 46.5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.nav-con:hover{
+    color: #E94B00
+}
+#mainImage{
+    transition: 0.5s;
+    width: 100%; /* Set the width of the image to fill the container */
+    display: block; /* Make the image a block element */
+    transition: transform 0.5s;
+    z-index: 1;
+}
+
+#mainImage:hover{
+    opacity: 0.6;
+}
+
+.banner3 {
+    width: 100%; /* Set the width of the container */
+    overflow: hidden;
+    z-index: 1; /* Hide overflowing images */
+}
+
+
+  
+
+  
