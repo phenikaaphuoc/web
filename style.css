@@ -336,12 +336,19 @@ h2{
 }
 .row1{
     display: grid;
-    grid-template-columns: 10fr 5fr 5fr ;
+    grid-template-columns: 11fr 5fr 5fr ;
     grid-template-rows: auto;
     column-gap: 30px;
 }
-.row1 div{
-    height: 259px;
+.row2{
+    display: grid;
+    grid-template-columns: 5fr 5fr 10fr ;
+    grid-template-rows: auto;
+    column-gap: 30px;
+    margin: 30px auto;
+}
+.row1 div,.row2 div{
+    height: 309px;
     
 }
 .phan1 img{
@@ -446,4 +453,324 @@ h2{
     font-weight: 500;
     color: #E94B00;
    
+}
+
+.boxshadow{
+    box-shadow: 3px 3px #E8E8E8;
+}
+#xem-them{
+    background-color: #E94B00;
+    margin: 50px auto;
+    width: 400px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+ 
+}
+#xem-them a{
+    color: #fff;
+    line-height: 50px;
+    display: block;
+    
+}
+
+.row3{
+    background-color: #000;
+}
+.su-kien{
+  
+    display: grid;
+    column-gap: 10px;
+    grid-template-rows: 450px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.su-kien div{
+  background-color: #fff;
+}
+
+.su-kien div .anh{
+    height: 315px;
+    overflow: hidden;
+    width: 100%;
+}
+.su-kien div .anh img{
+    width: 100%;
+    transition: 0.4s;
+  
+    
+}
+.su-kien div .anh img:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.row3 .container p,.row3 .container h2{
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+.thanh-ngang-trang-ngan{
+    height: 2px;
+    width: 80px;
+    background-color: #fff;
+    margin-top: -10px;
+}
+.thanh-ngang-trang-dai{
+    height: 2px;
+    width: 120px;
+    background-color: #fff;
+    margin: 5px 0;
+    display: inline;
+    padding: 0;
+}
+.thanh-ngang-cam-ngan{
+    height: 2px;
+    width: 80px;
+    background-color: #E94B00;
+    margin: 0 auto;
+   
+}
+.thanh-ngang-cam-dai{
+    height: 2px;
+    width: 120px;
+    background-color: #E94B00;
+    margin: 5px auto;
+    display: inline;
+    padding: 0;
+    
+}
+.su-kien div a{
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 0;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    max-height: 58px;
+    margin-top: 50px;
+    border-left: 2px solid #E94B00;
+    
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding-top: 20px;
+}
+.row h2{
+    margin: 20px 0;
+}
+.con-so{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 853px;
+}
+.con-so img{
+    width: 100%;
+}
+.row4 {
+    
+    background-color: transparent;
+    background-image: url(https://phenikaa-uni.edu.vn:3600/pu/vi/modules/anh-nen-chon-phenikaa.png);
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+}
+.why-choose{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 120px;
+}
+.why-choose h2{
+    color: #fff;
+}
+.why-choose a{
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 50px 0;
+}
+.why-choose div{
+    width: 500px;
+    margin: 0 auto;
+}
+.why-choose div p{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+.circle-div {
+    overflow: hidden;
+     /* Sets the width of the div */
+    height: 144px; /* Sets the height of the div */
+    border-radius: 72px;
+    border: 2px solid #fff;
+     /* Sets a 2px solid white border */
+}
+.circle-div img{
+    height: 100%;
+    width: 100%;
+}
+.nho1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 4fr;
+    grid-template-rows: 270px;
+    column-gap: 10px;
+   
+}
+.nho-nho, .nho-to{
+     overflow: hidden;
+     position: relative;
+}
+.nho-nho img,.nho-to img{
+
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.phong-to:hover{
+    transform: scale(1.2);
+}
+.insta{
+    position: absolute;
+    bottom: 0;
+    background-color: #E94B00;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    transform: translateY(100%);
+    transition: 0.4s;
+}
+.insta a{
+    line-height: 45px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: block;
+
+}
+.insta:hover{
+    transform: translateY(0%);
+    opacity: 0.8;
+}
+
+.phong-to:hover + div{
+    transform: translateY(0);
+}
+.row5{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.phai .phai1{
+    position: relative;
+    overflow: hidden;
+    height: 49.2%;
+}
+.phong-to{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.row6{
+    margin-top: 50px;
+    background-color: #E6E6E6;
+    padding-top: 50px;
+    height: 130px;
+}
+.row6 div div    h2{
+    
+    display: inline;
+    text-align: left;
+    color: #223771;
+    font-weight: 600;   
+}
+.row6 div div:nth-child(1){
+    float: left;
+}
+.row6 div div:nth-child(2){
+    float: right;
+}
+#xam{
+    background-color: #E6E6E6;
+}
+.lien-he{
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    
+}
+.lien-he div{
+    width: 33%;
+}
+.lien-he div p{
+    display: block;
+    color: #223771;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.lien-he div a{
+    color: #223771;
+    font-size: 15px;
+    font-weight: bold;
+  
+}
+.lien-he div a:hover{
+    opacity: 0.8;
+}
+
+
+footer{
+    background-color: #002B54;
+    height: 500px;
+    padding-top: 40px;
+}
+.logo-fotter{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.siu{
+    display: flex;
+}
+.siu li{
+    padding-right: 20px;
+    display: block;
+    width: max(340px);
+
+}
+
+.siu li a{
+    line-height: 30px;
+}
+
+.map img{
+    width: 300px;
+    height: 250px;
 }
